@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>ovu0ojvb3jgz</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1135</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="BGGame" sid="163639116008998">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="397697428090517" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\bg.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="858093264351692">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="421108707196032">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\PSPT-01\Downloads\aset game\Tiles\tile2.png" />
+        </object-type>
+        <object-type name="tile" sid="955831822824598">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="859564681184247">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217223993701258" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\PSPT-01\Downloads\moj-removebg-preview (2).png">
+                        <collision-poly>
+                            <point x="0.0234375" y="0.0322581" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.806452" />
+                            <point x="0.304688" y="0.580645" />
+                            <point x="0.09375" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\PSPT-01\Downloads\moj-removebg-preview (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tile2" sid="243269755409825">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="510389701190718">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="250040356262149" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Tiles\tile1.png">
+                        <collision-poly>
+                            <point x="0.0234375" y="0.0234375" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tile3" sid="648099831636746">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="592399351349478">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344006216609348" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Tiles\tile3.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.976563" y="0.0234375" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player" sid="283535418953476">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="key" sid="760566577775150" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="301832923492678">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="801240380981589">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="793539152119594">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="816429264349481" speed="5">
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\Player.png" />
+                </animation>
+                <animation framecount="7" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="100324013804175" speed="8">
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\Walk1.png" />
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\Walk2.png" />
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\Walk3.png" />
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\Walk4.png" />
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\Walk5.png" />
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\Walk6.png" />
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\Walk7.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="836166017233243" speed="5">
+                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\player\JUMP.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="172992700517126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="C:\Users\PSPT-01\Downloads\aset game\player\fall.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="575681451117999">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="tbKiri" sid="752205861818845">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="402550684383092" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\tbKiri.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tbKanan" sid="503613522075590">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="524386247148600" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\tbKanan.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tbLompat" sid="673963351162762">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="690780562040174" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\tbLompat.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="607564247567124">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="enemyFloating_" sid="451122806962628">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="724587684385287" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemyFloating_1.png">
+                        <collision-poly>
+                            <point x="0.0238095" y="0.025" />
+                            <point x="0.97619" y="0.025" />
+                            <point x="0.97619" y="0.975" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0238095" y="0.975" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemyWalking_" sid="482024264045416">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="move" sid="976946353639063" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="454015902562737">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212383534897135" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemyWalking_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemyWalking_2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemyFlying_" sid="740167617946520">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="647544130969551">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="735777721087616">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="759607383543067" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemyFlying_1.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.184211" />
+                            <point x="0.5" y="0.368421" />
+                            <point x="0.890625" y="0.184211" />
+                            <point x="0.734375" y="0.5" />
+                            <point x="0.734375" y="0.552632" />
+                            <point x="0.5" y="1" />
+                            <point x="0.265625" y="0.552632" />
+                            <point x="0.265625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemyFlying_2.png">
+                        <collision-poly>
+                            <point x="0.21875" y="0.368421" />
+                            <point x="0.78125" y="0.368421" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.734375" y="0.552632" />
+                            <point x="0.5" y="1" />
+                            <point x="0.265625" y="0.552632" />
+                            <point x="0.03125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemyFlying_3.png">
+                        <collision-poly>
+                            <point x="0.28125" y="0.418605" />
+                            <point x="0.5" y="0.325581" />
+                            <point x="0.71875" y="0.418605" />
+                            <point x="0.734375" y="0.488372" />
+                            <point x="0.734375" y="0.604651" />
+                            <point x="0.5" y="0.883721" />
+                            <point x="0.265625" y="0.604651" />
+                            <point x="0.265625" y="0.488372" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemySwimming_" sid="692839240878042">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="264518791085158">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569260918255623" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemySwimming_1.png">
+                        <collision-poly>
+                            <point x="0.0454545" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.886364" y="0.15625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.886364" y="0.84375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0454545" y="0.9375" />
+                            <point x="0.227273" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemySwimming_2.png">
+                        <collision-poly>
+                            <point x="0.295455" y="0.40625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.886364" y="0.15625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.886364" y="0.84375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.295455" y="0.59375" />
+                            <point x="0.0454545" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\Enemies\enemySwimming_3.png">
+                        <collision-poly>
+                            <point x="0.282609" y="0.40625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.891304" y="0.15625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.891304" y="0.84375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.282609" y="0.59375" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yellowJewel" sid="843657153609540">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460962395860328" speed="5">
+                    <frame duration="1" hotspotX="0.501661" hotspotY="0.502994" original-source="C:\Users\PSPT-01\Downloads\koin-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.166667" y="0.181818" />
+                            <point x="0.5" y="0.0454545" />
+                            <point x="0.833333" y="0.181818" />
+                            <point x="1" y="0.5" />
+                            <point x="0.791667" y="0.772727" />
+                            <point x="0.5" y="0.954545" />
+                            <point x="0.208333" y="0.772727" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Gems" sid="108163798945279">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="430199083092328" speed="5">
+                    <frame duration="1" hotspotX="0.501661" hotspotY="0.508982" original-source="C:\Users\PSPT-01\Downloads\koin-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.16129" y="0.188679" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854839" y="0.169811" />
+                            <point x="1" y="0.490566" />
+                            <point x="0.806452" y="0.773585" />
+                            <point x="0.5" y="1" />
+                            <point x="0.209677" y="0.754717" />
+                            <point x="0.0322581" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txJewel" sid="703317701031166">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="hudHeart_full" sid="842630331249293">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357421311007522" speed="5">
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.509434" original-source="C:\Users\PSPT-01\Downloads\aset game\HUD\hudHeart_full.png">
+                        <collision-poly>
+                            <point x="0.0819672" y="0.0943396" />
+                            <point x="0.491803" y="0.0754717" />
+                            <point x="0.918033" y="0.0943396" />
+                            <point x="0.967213" y="0.490566" />
+                            <point x="0.786885" y="0.754717" />
+                            <point x="0.491803" y="0.981132" />
+                            <point x="0.213115" y="0.754717" />
+                            <point x="0.0327869" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txHeart" sid="887116610488907">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="key" sid="765113713814197">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="684223656738423" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="C:\Users\PSPT-01\Downloads\aset game\HUD\key0.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="C:\Users\PSPT-01\Downloads\aset game\HUD\key1.png">
+                        <collision-poly>
+                            <point x="0.0853659" y="0.264151" />
+                            <point x="0.256098" y="0.490566" />
+                            <point x="0.0243902" y="0.924528" />
+                            <point x="0.0792683" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509434" original-source="C:\Users\PSPT-01\Downloads\aset game\HUD\key2.png">
+                        <collision-poly>
+                            <point x="0.0853659" y="0.264151" />
+                            <point x="0.5" y="0.113208" />
+                            <point x="0.609756" y="0.490566" />
+                            <point x="0.5" y="0.698113" />
+                            <point x="0.0243902" y="0.924528" />
+                            <point x="0.0792683" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503145" hotspotY="0.511111" original-source="C:\Users\PSPT-01\Downloads\aset game\HUD\key3.png">
+                        <collision-poly>
+                            <point x="0.0880503" y="0.311111" />
+                            <point x="0.496855" y="0.0666667" />
+                            <point x="0.962264" y="0.133333" />
+                            <point x="0.987421" y="0.488889" />
+                            <point x="0.918239" y="0.711111" />
+                            <point x="0.496855" y="0.733333" />
+                            <point x="0.0188679" y="0.933333" />
+                            <point x="0.0880503" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="key2" sid="601834412465479">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="933274828165489" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="C:\Users\PSPT-01\Downloads\aset game\HUD\key.png">
+                        <collision-poly>
+                            <point x="0.311111" y="0.311111" />
+                            <point x="0.488889" y="0.0666667" />
+                            <point x="0.866667" y="0.133333" />
+                            <point x="0.933333" y="0.488889" />
+                            <point x="0.711111" y="0.711111" />
+                            <point x="0.488889" y="0.733333" />
+                            <point x="0.0666667" y="0.933333" />
+                            <point x="0.311111" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hudHeart_full2" sid="453590197719346">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570128966016046" speed="5">
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.509434" original-source="C:\Users\PSPT-01\Downloads\aset game\HUD\hudHeart_full.png">
+                        <collision-poly>
+                            <point x="0.0819672" y="0.0943396" />
+                            <point x="0.491803" y="0.0754717" />
+                            <point x="0.918033" y="0.0943396" />
+                            <point x="0.967213" y="0.490566" />
+                            <point x="0.786885" y="0.754717" />
+                            <point x="0.491803" y="0.981132" />
+                            <point x="0.213115" y="0.754717" />
+                            <point x="0.0327869" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Window" sid="974432226503947">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="407640152284526" speed="5">
+                    <frame duration="1" hotspotX="0.500829" hotspotY="0.501171" original-source="C:\Users\PSPT-01\Downloads\aset game\Window.png">
+                        <collision-poly>
+                            <point x="0.0116086" y="0.0163934" />
+                            <point x="0.499171" y="0.00234192" />
+                            <point x="0.985075" y="0.0210773" />
+                            <point x="0.980099" y="0.971897" />
+                            <point x="0.0165837" y="0.976581" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="complete" sid="250429436885335">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="246746984115161" speed="5">
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\complete.png">
+                        <collision-poly>
+                            <point x="0.0827887" y="0.311475" />
+                            <point x="0.498911" y="0" />
+                            <point x="0.917211" y="0.311475" />
+                            <point x="0.923747" y="0.5" />
+                            <point x="0.954248" y="0.827869" />
+                            <point x="0.498911" y="0.606557" />
+                            <point x="0.043573" y="0.836066" />
+                            <point x="0.0784314" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Window2" sid="785235366438035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="394849097042155" speed="5">
+                    <frame duration="1" hotspotX="0.500829" hotspotY="0.501171" original-source="C:\Users\PSPT-01\Downloads\aset game\Window.png">
+                        <collision-poly>
+                            <point x="0.0116086" y="0.0163934" />
+                            <point x="0.499171" y="0.00234192" />
+                            <point x="0.985075" y="0.0210773" />
+                            <point x="0.980099" y="0.971897" />
+                            <point x="0.0165837" y="0.976581" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="complete2" sid="766038330100749">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="472822835097348" speed="5">
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\aset game\complete.png">
+                        <collision-poly>
+                            <point x="0.0827887" y="0.311475" />
+                            <point x="0.498911" y="0" />
+                            <point x="0.917211" y="0.311475" />
+                            <point x="0.923747" y="0.5" />
+                            <point x="0.954248" y="0.827869" />
+                            <point x="0.498911" y="0.606557" />
+                            <point x="0.043573" y="0.836066" />
+                            <point x="0.0784314" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txTuntas" sid="721200628775534">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="NEXTremovebgpreview" sid="722203431323261">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="157311198156461" speed="5">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="C:\Users\PSPT-01\Downloads\NEXT-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.346667" y="0.346667" />
+                            <point x="0.497778" y="0.351111" />
+                            <point x="0.653333" y="0.346667" />
+                            <point x="0.862222" y="0.497778" />
+                            <point x="0.604444" y="0.604444" />
+                            <point x="0.395556" y="0.604444" />
+                            <point x="0.168889" y="0.497778" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg" sid="384044105380840">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538353464532144" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\bg.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gcf__1___2_removebgpreview" sid="353219002653687">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="681454678057218" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\gcf__1___2_-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.0748792" y="0.276786" />
+                            <point x="0.5" y="0.116071" />
+                            <point x="0.905797" y="0.348214" />
+                            <point x="0.932367" y="0.5" />
+                            <point x="0.922705" y="0.714286" />
+                            <point x="0.5" y="0.910714" />
+                            <point x="0.0676328" y="0.75" />
+                            <point x="0.0434783" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="butto__1_removebgpreview__1_removebgpreview" sid="347182506847910">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="862712689911717" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\butto__1_-removebg-preview__1_-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.0668317" y="0.214286" />
+                            <point x="0.5" y="0.0952381" />
+                            <point x="0.908416" y="0.293651" />
+                            <point x="0.938119" y="0.5" />
+                            <point x="0.905941" y="0.698413" />
+                            <point x="0.5" y="0.809524" />
+                            <point x="0.0792079" y="0.746032" />
+                            <point x="0.0222772" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gcf__2___1_removebgpreview" sid="149667187568545">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="683624277953780" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\gcf__2___1_-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.183099" y="0.22807" />
+                            <point x="0.5" y="0.0964912" />
+                            <point x="0.746479" y="0.315789" />
+                            <point x="0.774648" y="0.5" />
+                            <point x="0.725352" y="0.657895" />
+                            <point x="0.5" y="0.842105" />
+                            <point x="0.183099" y="0.77193" />
+                            <point x="0.084507" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gcf__1___1_removebgpreview" sid="436899813824971">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="499286149067120" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\gcf__1___1_-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.26087" y="0.310345" />
+                            <point x="0.5" y="0.12931" />
+                            <point x="0.804348" y="0.232759" />
+                            <point x="0.898551" y="0.5" />
+                            <point x="0.797101" y="0.758621" />
+                            <point x="0.5" y="0.87069" />
+                            <point x="0.231884" y="0.724138" />
+                            <point x="0.195652" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="vbxfgx" sid="491047253840370">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247229218217114" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\vbxfgx (1) (1).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="vbxfgx__1___1_removebgpreview" sid="171141333291350">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191354999675264" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\vbxfgx__1___1_-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.235294" y="0.273973" />
+                            <point x="0.5" y="0.143836" />
+                            <point x="0.770588" y="0.267123" />
+                            <point x="0.847059" y="0.5" />
+                            <point x="0.782353" y="0.746575" />
+                            <point x="0.5" y="0.849315" />
+                            <point x="0.241176" y="0.719178" />
+                            <point x="0.176471" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="115828183505734">
+            <plugin id="Button" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>opening.xml</layout>
+        <layout>level 1.xml</layout>
+        <layout>level 2.xml</layout>
+        <layout>level3.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>event sheet opening.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="11" />
+        <global-instance type="Touch" uid="15">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

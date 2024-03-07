@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">opening</layout>
+        <layout order="2">level 1</layout>
+        <layout order="4">level 2</layout>
+        <layout active="1" order="6">level3</layout>
+        <event-sheet order="1">event sheet opening</event-sheet>
+        <event-sheet order="3">Event sheet 1</event-sheet>
+        <event-sheet order="5">Event sheet 2</event-sheet>
+        <event-sheet order="7">Event sheet 3</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/BGGame/" />
+        <folder expanded="1" path="animation-folder/tile/" />
+        <folder expanded="1" path="animation-folder/tile2/" />
+        <folder expanded="1" path="animation-folder/tile3/" />
+        <folder expanded="1" path="animation-folder/Player/" />
+        <folder expanded="1" path="animation-folder/tbKiri/" />
+        <folder expanded="1" path="animation-folder/tbKanan/" />
+        <folder expanded="1" path="animation-folder/tbLompat/" />
+        <folder expanded="1" path="animation-folder/enemyFloating_/" />
+        <folder expanded="1" path="animation-folder/enemyWalking_/" />
+        <folder expanded="1" path="animation-folder/enemyFlying_/" />
+        <folder expanded="1" path="animation-folder/enemySwimming_/" />
+        <folder expanded="1" path="animation-folder/yellowJewel/" />
+        <folder expanded="1" path="animation-folder/Gems/" />
+        <folder expanded="1" path="animation-folder/hudHeart_full/" />
+        <folder expanded="1" path="animation-folder/key/" />
+        <folder expanded="1" path="animation-folder/key2/" />
+        <folder expanded="1" path="animation-folder/hudHeart_full2/" />
+        <folder expanded="1" path="animation-folder/Window/" />
+        <folder expanded="1" path="animation-folder/complete/" />
+        <folder expanded="1" path="animation-folder/Window2/" />
+        <folder expanded="1" path="animation-folder/complete2/" />
+        <folder expanded="1" path="animation-folder/NEXTremovebgpreview/" />
+        <folder expanded="1" path="animation-folder/bg/" />
+        <folder expanded="1" path="animation-folder/gcf__1___2_removebgpreview/" />
+        <folder expanded="1" path="animation-folder/butto__1_removebgpreview__1_removebgpreview/" />
+        <folder expanded="1" path="animation-folder/gcf__2___1_removebgpreview/" />
+        <folder expanded="1" path="animation-folder/gcf__1___1_removebgpreview/" />
+        <folder expanded="1" path="animation-folder/vbxfgx/" />
+        <folder expanded="1" path="animation-folder/vbxfgx__1___1_removebgpreview/" />
+    </folders-expanded>
+</c2uistate>
